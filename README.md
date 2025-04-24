@@ -110,8 +110,8 @@ plt.show()
 # Final model parameters and best-fit line
 final_weight = model.linear.weight.item()
 final_bias = model.linear.bias.item()
-print("\nName: Reshma C")
-print("Register No: 212223040168")
+print("\nName: Manisha selvakumari S.S.")
+print("Register No: 212223220055")
 x1 = t.tensor([X.min().item(), X.max().item()])
 y1 = x1 * final_weight + final_bias
 
@@ -126,9 +126,10 @@ plt.show()
 # Making a new prediction
 x_new = t.tensor([[120.0]])
 y_new_pred = model(x_new).item()
-print("\nName: Reshma C")
-print("Register No: 212223040168")
+print("\nName: Manisha selvakumari S.S.")
+print("Register No: 212223220055")
 print(f"\nPrediction for x = 120: {y_new_pred:.8f}")
+
 ~~~
 
 ### Dataset Information
