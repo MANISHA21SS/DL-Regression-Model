@@ -43,6 +43,7 @@ Use the trained model to predict  for a new input value .
 ### Name: Manisha selvakumari.S.S.
 
 ### Register Number: 212223220055
+~~~
 
 import torch as t
 import torch.nn as nn
@@ -128,6 +129,7 @@ y_new_pred = model(x_new).item()
 print("\nName: Reshma C")
 print("Register No: 212223040168")
 print(f"\nPrediction for x = 120: {y_new_pred:.8f}")
+~~~
 
 ### Dataset Information
 ![Screenshot (243)](https://github.com/user-attachments/assets/db91e5ae-206e-45df-8796-4d761d91de62)
