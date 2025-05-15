@@ -79,8 +79,8 @@ initial_bias = model.linear.bias.item()
 
 print(f"Initial Weight: {initial_weight:.2f}")
 print(f"Initial Bias: {initial_bias:.2f}\n")
-print("\nName: Reshma C")
-print("Register No: 212223040168")
+print("\nName: Manisha selvakumari.S.S.")
+print("Register No: 212223220055")
 # Training the model
 loss_function = nn.MSELoss()
 optimizer = t.optim.SGD(model.parameters(), lr=0.001)
